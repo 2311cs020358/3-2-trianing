@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    background: #fff;
+    color: #222;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+section {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.skills span {
+    background: #333;
+    color: white;
+    padding: 8px 14px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.project {
+    background: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.project:hover {
+    background: #f0f0f0;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
